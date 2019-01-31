@@ -1,0 +1,91 @@
+.todoitem-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.todoitem-content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  background-color: #e0e8f5;
+  position: relative;
+}
+
+.todoitem-content:hover .todoitem-action {
+  width: 102px;
+}
+
+.todoitem-checkbox {
+  width: 46px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoitem-done {
+  color: #6d6d6d;
+  text-decoration: line-through;
+}
+
+.todoitem-title {
+  flex: 1;
+  text-align: left;
+}
+
+.todoitem-action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0px;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: hidden;
+  transition: all linear 0.2s;
+}
+
+.todoitem-action > div {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todoitem-action > div > i {
+  font-size: 20px;
+}
+
+.todoitem-action > div:first-child {
+  background-color: #00ddff;
+}
+
+.todoitem-action > div:last-child {
+  background-color: #f56468;
+}
+
+.todoitem-des {
+  overflow: hidden;
+  height: 0px;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #fff;
+  transition: all linear 0.1s;
+}
+
+.showStatusRecord {
+  padding: 12px;
+  height: auto;
+}

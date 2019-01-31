@@ -1,0 +1,25 @@
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cfdceb;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.checkbox-checked::before {
+  content: "\e659";
+  color: #61dafb;
+}

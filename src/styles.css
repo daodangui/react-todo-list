@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO8AAsAAAAACBQAAANuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDTIMRATYCJAMQCwoABCAFhG0HSxsGB8i+IRqH109hKCkfhaV7ls2Ebo67u0zSOf/jTWABN3j+26/dJyNrmnYxT1rFI2kP0WLwBKFRCpnQIJQfGnkG57IcUDtAu2UIpA6TNiun6ZAeURgCYdkRqb0C9v8NUMBFhof83TuOjZCkLEvRTBCazSb6ilbEqoANOG9QGUAGnrAGCJgxrSd7sX3ISkQpUtWDrD+72/NBTe4WeMDWF2hFkGotYdHTrqmuOJv1AEGbsP85Zrpomk3z+8Ipo2lvOMBx296AMi+b7A4QbxnedrE6jNshoG5OIdvUPTgJvBxZJUA2IgSBN2PgDeUiE7HiYJIH5eqy5wA8BX8vP8rzQoUa2XizdEVA69dbybb1lYdAOJ0NkI6BgR0Ah6yVjgeOKLHDoW5MdzoEyDLFVENzlVzkREdRZKpg6D+eQlqktAlgH5OGqtcRJMo51CGolLEEBXwQVR6cegO+ZOMEWaJc7GPoOlyyv//CbBJ9+u6uNHPF+NunnK1KBheDiylps53FT0XnWO1Xm4sqa3PkTLmkE1fKK/L4xSlbyXz/b/tODn9ttm5m8oCOtrDjFoXjC4mjvMUkaOCj+Uc3P9b/ep8N+f/d7b2vu9ybv8NvBao9D1ntTzoj2DXsFFxTbkHMcWN3xecF1v8u8HC898K/Jqyv8dr+hh/KC1Nz4v1kdzFzMS7DQ18iPluIwLXUhFJKwiXIiWuxgazFhAxEXyI+G2QnAh2gkLudwEZAObWWAgA77Hd+5iJ+jLuf/k7jP/Mw4V+y6wkahgn/iLCz8NeNSlCEy2Ji8NSNxUDYPYm79m/WKairgwKevs9TqEadS0FkowRUMgWTrSAduwNBwz5E2RHUbes53jBAOUh2YMs+gOh6AKrtG0zXC6RjDyEY+wtRNwfUzSLxwoa1CNdBUZChCAwtQxLWVMzMjAvLx5FgyUGaFgfUaURNEoZl2fl0D1IRnWKLuSCUM4YhppoCu+FuSJY1qFNtHoVZsciYXl9SW/VDxWFNAZwzFBLEIBFQyDKICNOosNee4Qq/Pw4RWGRBtKGpwT0NoUxkfKhMsdIOyB6F2qnpVt5iWiAoxzAYhFEaBdQN8xCZTAPp1fPmIWFMMXFATFevhLbCXRXFy6uUN9wB1JEv8KiijoxGnC0iaJbHFINqWLRiZIJCJKitpOOmSAAAAAA=")
+    format("woff2");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duigou:before {
+  content: "\e659";
+}
+
+.icon-shanchu:before {
+  content: "\e66c";
+}
+
+.icon-liebiaozhanshi:before {
+  content: "\e648";
+}
+
+div,
+input {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.container .appName {
+  color: #61dafb;
+  font-size: 33px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,8 @@
+.editTitle-input input {
+  outline: none;
+  border: 0px;
+  height: 20px;
+  background-color: #e0e8f5;
+  font-size: 18px;
+  width: 100%;
+}

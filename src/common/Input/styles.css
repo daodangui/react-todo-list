@@ -1,0 +1,9 @@
+.additem-input {
+  height: 44px;
+  width: 327px;
+  padding: 0 15px;
+  border-radius: 2px;
+  border: 1px solid #61dafb;
+  font-size: 16px;
+  outline: none;
+}

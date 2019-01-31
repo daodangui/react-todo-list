@@ -1,0 +1,18 @@
+.additem-add {
+  width: 80px;
+  height: 44px;
+  border-radius: 2px;
+  background-color: #61dafb;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+}
+
+.additem-add:active {
+  background-color: #00b6ff;
+}
